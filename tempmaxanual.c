@@ -1,7 +1,7 @@
 /* 
 AUTORA : ROSA SILVERIO GUZMAN
 GRUPO: Q103
-DESCRIPCION: Calcular la temperatura m·xima del aÒo y mes correspondiente
+DESCRIPCION: Calcular la temperatura m√°xima del a√±o y mes correspondiente
 */
 
 #include<stdio.h>
@@ -37,6 +37,10 @@ int main()
 			mesf[0]=mes[z];
 			
 		}
+		else 
+		{
+			tempmax[0]=temp[p];
+			mesf[0]=mes[z];
 		
 		p++;
 		
