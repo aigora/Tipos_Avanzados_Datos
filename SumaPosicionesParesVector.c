@@ -1,3 +1,5 @@
+/* ROCÍO BERZAL CABETAS  Q203*/
+
 #include <stdio.h>
 #define N 10
 
