@@ -1,3 +1,9 @@
+/*
+AUTORA: María Canga 
+GRUPO: Q-103
+DESCRIPCIÓN: Calcula de la temperatura media, la temperatura máxima, la mínima y ordenarlas de menor a mayor
+*/
+
 #include <stdio.h>
 #include <conio.h>
 
@@ -7,7 +13,7 @@ int main() {
 	float vectorTemp[12]; 
 	float maximo=0, minimo=0;
 	
-	//IMTRODUCCI�N DE TEMPERATURAS Y MEDIA:
+	//IMTRODUCCIÓN DE TEMPERATURAS Y MEDIA:
 	for (i=0; i<=11; i++) {
 		printf("Introduce la temperatura del mes %d\n", i+1);
 		scanf("%f", &vectorTemp[i]);
@@ -16,7 +22,7 @@ int main() {
 	mediaAnual=mediaAnual/12;
 	printf("Temperatura media anual: %f\n", mediaAnual);
 	
-	//TEMPERATURA M�NIMA Y M�XIMA CON SUS CORRESPONDIENTES MESES:
+	//TEMPERATURA MÍNIMA Y MÁXIMA CON SUS CORRESPONDIENTES MESES:
 	minimo=vectorTemp[0];
 	maximo=vectorTemp[0];
 	mes_m=1;
