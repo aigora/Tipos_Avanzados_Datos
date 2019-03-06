@@ -22,6 +22,8 @@ int main()
 	
 	//Almacena la tempmax la 1º temp
 	tempmaxima=tempanual[0];
+	//Almacena el mes de la temperatura maxima
+	mesfinal=1
 	
 	for(p=1 ; p<12 ; p++)
 	{
