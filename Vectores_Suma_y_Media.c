@@ -12,9 +12,10 @@ int main(){
 	float v1[N]={1.0, 2.0, 3.0, 4.0, 5.0};
 	float v2[N], v3[N];
 	float suma, media;
-		
+	
+	printf("Introduce los valores del vector 2.\n");
 	for(i=0; i<5; i++){
-		printf("Introduce los valores del vector 2. Posicion %d: ", i+1);
+		printf("Posicion %d: ", i+1);
 		scanf("%f", &v2[i]);
 	}
 	
