@@ -15,7 +15,7 @@ int main()
 	
 	for (i=0; i<N; i++)
 	{
-		if (i%2==0)
+		if (i%2!=0)
 		{
 			printf("Vector posiciones pares: %i\n", v[i]);
 			suma+=v[i];
