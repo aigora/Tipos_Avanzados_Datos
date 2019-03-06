@@ -24,7 +24,7 @@ int main()
 		
 	}
 	
-	//Almacena la tempmaxima como  la 1º temperatura
+	//Almacena la temperatura maxima como  la 1º temperatura
 	tempmaxima=tempanual[0];
 	//Almacena el mes de la temperatura maxima
 	mesfinal=1;
