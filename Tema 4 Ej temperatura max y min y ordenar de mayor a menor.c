@@ -1,4 +1,4 @@
-// Marta Esparcia López
+// Marta Esparcia LÃ³pez
 //Q-103
 #include <stdio.h>
 int main(){
@@ -19,7 +19,7 @@ int main(){
 
 	printf("Su valor maximo es: %.2f\n", max);
 	
-	switch (i){
+	/*switch (i){
 			
 		case 0:
 				printf("Enero\n");
@@ -59,7 +59,7 @@ int main(){
 				break;
 		default :
 				printf("No se ha encontrado el mes\n");
-		}
+		}*/
 				
 	for(i=1;i<12;i++)
 	{
@@ -70,7 +70,7 @@ int main(){
 	}
 	printf("Su valor minimo es: %.2f\n", min);
 	
-	switch (i){
+	/*switch (i){
 			
 			case 0:
 				printf("Enero\n");
@@ -110,7 +110,7 @@ int main(){
 				break;
 			default :
 				printf("No se ha encontrado el mes\n");
-			}
+			}*/
 	
 	for(i=0;i<12;i++)
 	{
