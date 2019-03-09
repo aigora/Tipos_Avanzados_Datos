@@ -1,5 +1,5 @@
-/*  ROCIO BERZAL CABETAS
-	Q203
+/*      Autora: ROCIO BERZAL CABETAS
+	Q103
 	TEMA 4 Ejercicio 8 vectores: realizar una funcion matematica
 */
 
