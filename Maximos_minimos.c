@@ -1,4 +1,4 @@
-/*Nombre Marcos Calderon Jimeno Q203
+/*Nombre Marcos Calderon Jimeno Q103
 Descripcion Calcula el maximo y el minimo en un vector ntoducido por el usuario
 */
 #include <stdio.h>
