@@ -1,3 +1,6 @@
+/*Nombre Marcos Calderon Jimeno Q203
+Descripcion Calcula el maximo y el minimo en un vector ntoducido por el usuario
+*/
 #include <stdio.h>
 #define N 10
 void main()
