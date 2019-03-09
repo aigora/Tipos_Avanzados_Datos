@@ -1,5 +1,5 @@
 /*
-Autor Marcos Calderon Jimeno
+Autor Marcos Calderon Jimeno Q103
 descripcion: Escribe el vector desde el ultimo valor al primero
 */
 #include <stdio.h>
