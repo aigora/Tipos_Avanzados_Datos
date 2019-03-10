@@ -5,7 +5,7 @@
 
 int main()
 {
-	int v[N], v1[5], suma, i;
+	int v[N], v1[5], suma=0, i;
 	
 	for (i=0; i<N; i++)
 	{
@@ -13,14 +13,15 @@ int main()
 		scanf("%i", &v[i]);
 	}
 	
+	printf("Vector posiciones pares: ");
 	for (i=0; i<N; i++)
 	{
-		if (i%2!=0)
+		if (i==0||i%2==0)//de esta manera se incluye la posicion 0 como par
 		{
-			printf("Vector posiciones pares: %i\n", v[i]);
+			printf("%i\t", v[i]);
 			suma+=v[i];
 		}
 	}
 	
-	printf("Suma: %i", suma);
+	printf("\nSuma: %i", suma);
 }
