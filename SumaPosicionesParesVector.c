@@ -16,7 +16,7 @@ int main()
 	printf("Vector posiciones pares: ");
 	for (i=0; i<N; i++)
 	{
-		if (i==0||i%2==0)//de esta manera se incluye la posicion 0 como par
+		if (i%2==0)//de esta manera se incluye la posicion 0 como par
 		{
 			printf("%i\t", v[i]);
 			suma+=v[i];
