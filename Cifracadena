@@ -1,0 +1,55 @@
+//Hugo Rivera Rodr�guez
+//Q-103
+//Programa que "cifra" una frase dada por el usuario
+
+#include<stdio.h>
+
+int main()
+{
+	char frase[150];
+	int i, longitudFrase=0;
+	printf("Introduce tu frase para que sea cifrada:\n");
+	gets(frase);
+	while(frase[i]!='\0')
+	{
+		longitudFrase++;
+		i++;
+	}
+	for(i=0;i<longitudFrase;i++)
+	{
+		if ((frase[i]=='a')||(frase[i]=='A'))
+		{
+			frase[i]='4';
+		}
+		if ((frase[i]=='e')||(frase[i]=='E'))
+		{
+			frase[i]='3';
+		}
+		if ((frase[i]=='t')||(frase[i]=='T'))
+		{
+			frase[i]='7';
+		}
+		if ((frase[i]=='o')||(frase[i]=='O'))
+		{
+			frase[i]='0';
+		}
+		if ((frase[i]=='s')||(frase[i]=='S'))
+		{
+			frase[i]='5';
+		}
+		if ((frase[i]=='i')||(frase[i]=='I'))
+		{
+			frase[i]='1';
+		}
+		if ((frase[i]=='b')||(frase[i]=='B'))
+		{
+			frase[i]='8';
+		}
+		if ((frase[i]=='z')||(frase[i]=='Z'))
+		{
+			frase[i]='2';
+		}
+	}
+	printf("Su frase cifrada es:\n %s",frase);
+	return 0;
+}
