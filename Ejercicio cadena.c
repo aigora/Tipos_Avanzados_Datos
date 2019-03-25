@@ -1,6 +1,6 @@
-//Autora: Laura Úbeda Muñoz
+//Autora: Laura Ãšbeda MuÃ±oz
 //Grupo: Q103
-//Descripción: Este programa lee una palabra y la escribe al revés
+//DescripciÃ³n: Este programa lee una palabra y la escribe al revÃ©s
 
 #include <stdio.h>
 
@@ -14,6 +14,6 @@ void main () {
 while (palabra[i++]!='\0');
 printf("%s escrita al reves es:", palabra);
 
-while(i>1)
+while(i>=1)
 printf("%c", palabra[--i]);
 }
