@@ -1,6 +1,6 @@
 //Autora: Laura Úbeda Muñoz
 //Grupo: Q103
-//Descripción: Este programa lee una palabra y la escribe al revés
+//Descripción: Este programa lee una palabra y la escribe al revés.
 
 #include <stdio.h>
 
