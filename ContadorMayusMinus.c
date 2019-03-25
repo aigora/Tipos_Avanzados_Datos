@@ -1,5 +1,5 @@
 //Vera Valentin Avellon, Q103
-//contador de mayusculas y minusculas
+//pide una contraseña hasta que esta tiene un minimo de 10 caracteres. Despues cuenta el numero de mayusculas y de minusculas que contiene
 
 
 #include<stdio.h>
@@ -8,21 +8,18 @@ int main(){
 	char palabra[50];
 	int longi=0,i=0,may=0,min=0;
 	
+	do{
 	printf("Introduzca una nueva contrasena con un minimo de 10 letras:\n");
 	gets(palabra);
 	
-	i=0; 
+	i=0;
+	longi=0;
 	while(palabra[i]!='\0'){
 		longi++;
 		i++;
 		
-	}
-
-	
-	if(longi<10){
-	printf("Introduzca una nueva contrasena con un minimo de 10 letras:\n");
-	gets(palabra);
-	}
+	}	
+	}while(longi<10);
 	
 	printf("Long es %i\n",longi);
 	
@@ -32,7 +29,7 @@ int main(){
 		
 	}	
 	}
-	i=0;
+	
 	
 	printf("Su contrasena contiene %i minusculas\n",min);
 	
