@@ -1,4 +1,6 @@
-/*Ejercicio	2: Introduzca una	frase	cualquiera	por	teclado	e	imprímala	al	revés.	(ejemplo:	casa	à asac).*/
+/*Marta Esparcia
+Grupo:Q103*/
+/*Ejercicio	2: Introduzca una	frase	cualquiera	por	teclado	e	imprÃ­mala	al	revÃ©s.	(ejemplo:	casa	Ã  asac).*/
 #include<stdio.h>
 int main (){
 	char frase[50], letra;
