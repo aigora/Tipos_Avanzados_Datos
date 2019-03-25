@@ -1,6 +1,7 @@
 /*
-Diego Gómez
+Diego GÃ³mez
 Grupo Q103
+Programa que compara 2 frases o palabras e imprime si estan ordenadas o no alfabeticamente.
 */
 
 #include <stdio.h>
