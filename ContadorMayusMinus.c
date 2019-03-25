@@ -1,3 +1,7 @@
+//Vera Valentin Avellon, Q103
+//contador de mayusculas y minusculas
+
+
 #include<stdio.h>
 int main(){
 	
