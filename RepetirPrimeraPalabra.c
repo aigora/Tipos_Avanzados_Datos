@@ -1,7 +1,7 @@
 /*Raquel Robledo Sedano
  Q-103
- Descripción: Se introducen palabras hasta que se repita la primera palabra introducida, mostrando dicha palabra.
- Al final del programa se mostrara el numero arde palabras introducidas antes de introducir la primera.
+ DescripciÃ³n: Se introducen palabras hasta que se repita la primera palabra introducida, mostrando dicha palabra.
+ Al final del programa se mostrara el numero de palabras introducidas antes de introducir la primera.
  Tema CADENA DE CARACTERES.*/
 #include <stdio.h>
 
