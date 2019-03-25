@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main (){
+	int i=0, j=0, h;
+	char letra,texto[100];
+	printf("Introduzca una lista de elementos separados por coma:\n");
+	gets(texto);
+	while(texto[j]!='\0'){
+		j++;
+	}
+	printf("-");
+	while(i<j){
+		if(texto[i]!=','){
+			printf("%c",texto[i]);
+			i++;
+		}
+		else{
+			printf("\n-");
+			i++;
+		}
+			
+	}
+}
