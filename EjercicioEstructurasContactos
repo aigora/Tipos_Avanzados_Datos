@@ -1,0 +1,106 @@
+//Hugo Rivera Rodr�guez
+//Q-103
+//Ejercicios 3,4 y 5
+
+#include<stdio.h>
+#include<math.h>
+#include<string.h>
+
+int main()
+{
+	typedef struct
+	{
+		char nombre[50];
+		char email[50];
+		int mes;
+		int year;
+	}contacto;
+	
+	contacto contacto1,contacto2;
+	int a=0,b=0,i,tam,compmail;//Para hacer el bucle del while
+	//Recopilo datos del contacto 1
+	printf("Introduzca su nombre:\n");
+	gets(contacto1.nombre);
+	fflush(stdin);
+	do{
+		a=0;
+		b=0;
+		printf("Introduzca su e-mail:\n");
+		gets(contacto1.email);
+		tam=strlen(contacto1.email);
+		for(i=0;i<tam;i++)
+		{
+			if (contacto1.email[i]=='@')
+			{
+				a=1;
+			}
+			if (contacto1.email[i]=='.')
+			{
+				b=1;
+			}
+		}
+	}while((a==0)||(b==0));
+	
+	printf("Introduzca su a%co de nacimiento:\n",164);
+	scanf("%d",&contacto1.year);
+	printf("Introduzca su mes de nacimiento:\n");
+	scanf("%d",&contacto1.mes);
+	//Recopilo datos del contacto 2
+	fflush(stdin);
+	printf("Introduzca su nombre:\n");
+	gets(contacto2.nombre);
+	fflush(stdin);
+	do{
+		a=0;
+		b=0;
+		printf("Introduzca su e-mail:\n");
+		gets(contacto2.email);
+		tam=strlen(contacto2.email);
+		for(i=0;i<tam;i++)
+		{
+			if (contacto2.email[i]=='@')
+			{
+				a=1;
+			}
+			if (contacto2.email[i]=='.')
+			{
+				b=1;
+			}
+		}
+	}while((a==0)||(b==0));
+	printf("Introduzca su a%co de nacimiento:\n",164);
+	scanf("%d",&contacto2.year);
+	printf("Introduzca su mes de nacimiento:\n");
+	scanf("%d",&contacto2.mes);
+	//Comparo los datos de ambos contactos
+	if (contacto1.year<contacto2.year)
+	{
+		printf("%s es el mayor de los dos",contacto1.nombre);
+	}
+	else if(contacto1.year>contacto2.year)
+	{
+		printf("%s es el mayor de los dos",contacto2.nombre);
+	}
+	else if(contacto1.year==contacto2.year)
+	{
+		if(contacto1.mes<contacto2.mes)
+		{
+			printf("%s es el mayor de los dos",contacto1.nombre);
+		}
+		else if (contacto1.mes>contacto2.mes)
+		{
+			printf("%s es el mayor de los dos",contacto2.nombre);
+		}
+		else if(contacto1.mes==contacto2.mes)
+		{
+			printf("Tanto %s como %s nacieron en el mismo mes %d del a%co %d\n",contacto1.nombre,contacto2.nombre,contacto1.mes,164,contacto1.year);
+		}
+	}
+	//Comparo los emails
+	compmail=strcmp(contacto1.email,contacto2.email);
+	if (compmail==0)
+	{
+		printf("Los dos usuarios tienen el mismo mail: %s",contacto1.email);
+	}
+	return 0;
+}
