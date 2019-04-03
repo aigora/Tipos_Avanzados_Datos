@@ -1,0 +1,60 @@
+// Jorge Gil Pereira
+#include <stdio.h>
+
+struct contacto{
+	char nombre[20];
+	char correo[20];
+	int mes;
+	int anho;
+};
+
+int main(){
+	
+	struct contacto pers1;
+	printf("Nombre:");
+	scanf("%s", pers1.nombre);
+	printf("\nCorreo electronico (ya viene predeterminado el @gmail.com):");
+	scanf("%s", pers1.correo);
+	printf("\nMes de nacimiento (en numero):");
+	scanf("%i", &pers1.mes);
+	printf("\nAnho de nacimiento (en numero):");
+	scanf("%i", &pers1.anho);
+	
+	struct contacto pers2;
+	printf("Nombre:");
+	scanf("%s", pers2.nombre);
+	printf("\nCorreo electronico (ya viene predeterminado el @gmail.com):");
+	scanf("%s", pers2.correo);
+	printf("\nMes de nacimiento (en numero):");
+	scanf("%i", &pers2.mes);
+	printf("\nAnho de nacimiento (en numero):");
+	scanf("%i", &pers2.anho);
+	
+	printf("Ahora vamos a imprimir del que sea mayor\n");
+	
+	if (pers2.anho>pers1.anho){
+		printf("La persona mayor es %s\n", pers1.nombre);
+		
+	}
+	
+	else if (pers2.anho<pers1.anho){
+		printf("La persona mayor es %s\n", pers2.nombre);
+		
+	}
+	
+	else {
+		
+		if (pers2.mes > pers1.mes){
+			printf("La persona mayor es %s\n", pers1.nombre);
+		}
+		
+		else if (pers2.mes < pers1.mes){
+			printf("La persona mayor es %s\n", pers2.nombre);
+		}
+		
+		else {
+			printf("Ambos son iguales\n");
+		}
+	}
+	
+}
