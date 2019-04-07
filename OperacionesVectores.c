@@ -1,7 +1,7 @@
 /*
 Autor: Diego Medina
-Grupo:103
-Descaripción: Este programa  calcula sumas y restas entre dos vectores
+Grupo:Q103
+DescripciÃ³n: Este programa  calcula sumas y restas entre dos vectores
 */
 #include <stdio.h>
 
