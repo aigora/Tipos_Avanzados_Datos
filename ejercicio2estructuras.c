@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-//Miguel Ángel Rodrigo Garcia q103
+//Miguel Ãngel Rodrigo Garcia q103
 
 struct punto{
 	float x;
@@ -29,7 +29,7 @@ void main(){
 			cuadrante1++;
 		
 	}
-		else if(puntos[i].x >0&&puntos[i].y<0)
+		else if(puntos[i].x <0&&puntos[i].y>0)
 	{
 	     cuadrante2++;
 			
@@ -38,7 +38,7 @@ void main(){
 	{
 	        cuadrante3++;
 	}
-		else if(puntos[i].x <0&&puntos[i].y>0){
+		else if(puntos[i].x >0&&puntos[i].y<0){
 	
 			cuadrante4++;
 		
